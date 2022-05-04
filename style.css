@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Source+Code+Pro:wght@200&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0e1217;
+}
+
+.heading {
+   height: 7rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 40px;
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.heading h5 {
+    color: grey;
+    font-size: 5rem;
+    letter-spacing: .4rem;
+}
+
+.body-main {
+   height: 32rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.grid-box {
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(182, 174, 174);
+}
+
+#grid {
+    margin-right: 100px;
+}
+
+.score {
+   font-size: 1.5rem;
+   letter-spacing: 2px;
+   font-weight: bold;
+   color: grey;
+   margin-left: 50px;
+   padding: 10px;   
+}
+
+.score p {
+    width: 300px;
+    /* height: 300px */
+}
+
+.row div {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(85, 83, 83);
+}
+
+.row {
+    display: flex;
+}
+
+.button{
+   height: 5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button button {
+    font-size: 1.4rem;
+    font-family: 'Orbitron', sans-serif;
+    background-color: transparent;
+    color: grey;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 10px;
+    outline: none;
+    padding: 3px;
+    border: 2px solid rgb(171, 169, 169);
+}
+
+.button button:hover {
+    color: rgb(237, 230, 230);
+}
